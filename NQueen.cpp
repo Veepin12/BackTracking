@@ -68,6 +68,7 @@ int main(){
     Solution S;
 
     int n;
+    cout<<"Enter the Number that you want to be N*N Matrix : ";
     cin>>n;
     vector<vector<string>> res=S.nQueen(n);
 
